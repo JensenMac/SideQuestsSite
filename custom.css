@@ -1,0 +1,175 @@
+/* This custom.css file is to be used for customizing my page beyond what bootstrap provides. */
+
+@import url('https://fonts.cdnfonts.com/css/8bit-wonder');
+
+      /* MAIN SITE THEME */
+body {
+    background-image: url("/images/arcade.jpg");
+    font-family: "Reddit Mono", monospace;
+    min-height: 800px;
+}
+
+/* CONTAINERS */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 148px;
+    border: solid 1px black;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.container-fluid h1, h2, h3, h4{
+    margin-top: 10px;
+}
+
+.container-fluid {
+    margin-top: 56px;
+}
+
+#mediaCarousel { /* gives the carousel in the media page a bit of padding and centers it on the page */
+    margin: auto;
+    padding: 40px;
+}
+
+#indexContainer { /* Specific ID container for the index page to overwrite the large top margin applied to all other containers */
+    margin-top: 0px;
+}
+
+.tableContainer { /* Specific ID container for the tables in pricing.html */
+    max-width: 95%;
+    max-height: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+
+/* GENERAL */
+h2 { /* gives all h2 the same font as the pages title and the navbar, as well as a purple underline */
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    text-decoration: underline #6f42c1;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    border: none;
+    background: #1a1a1a;!important;
+    padding-bottom: 15px;
+}
+
+footer .container {
+    padding-top: 10px;
+    border: none;
+    background: none;
+    color: white;
+}
+
+/* Social media buttons */
+.btn-social-icon {
+    font-size: x-large;
+}
+
+.btn-twitter {
+    color: #007bff;
+}
+
+.btn-instagram {
+    color: deeppink;
+}
+
+.btn-facebook {
+    color: #0062cc;
+}
+
+#copyright {
+    color: white;
+}
+
+/* NAVBAR */
+.bg-light { /* changes the style of the navbar */
+    background-color: white!important;
+    color: white;
+}
+
+.navbar-light .navbar-brand img { /* Gives a nicer font for the page name in navbar */
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-light .divider {
+    font-family: "Workbench", sans-serif;
+    font-size: x-large;
+    color: black;
+}
+
+.navbar-light a { /* Gives a nicer font for the page name in navbar */
+    font-family: "Workbench", sans-serif;
+    color: black;
+    font-size: x-large;
+    margin-right: 15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    font-family: "Workbench", sans-serif;
+    color: black;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover { /* Gives a nicer font for the page name in navbar */
+    font-family: "Workbench", sans-serif;
+    color: black;
+    text-decoration: underline black;
+}
+
+.dropdown-toggle {
+    margin-right: 30px;
+}
+
+/* JUMBOTRON */
+.jumbotron { /* gives the jumbotron a pretty purple color so it stands out better */
+    height: 400px;
+    max-height: 675px;
+    margin-top: 30px;
+    background-image: url("../images/AIbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 1px solid black;
+}
+
+.jumbotron-inner {
+    margin: auto;
+    width: 85%;
+}
+
+.display-4 { /* Changes the large heading inside the jumbotron on index.html */
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+/* Specific Sections */
+.visitUsSub {
+    font-weight: bold;
+    color: #2b4697;
+}
+
+.carousel-caption{
+    text-shadow: black 2px 1px 1px;
+}
+
+/* Tables */
+.tableDarkCustom {
+    background-color: #343a40;
+    color: white;
+    border-color: #454d55;
+}
+
+/* Site name */
+.site-name {
+    font-family: "Workbench", sans-serif;
+    color: white;
+}
